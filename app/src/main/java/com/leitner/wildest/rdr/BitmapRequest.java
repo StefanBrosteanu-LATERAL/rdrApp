@@ -22,7 +22,7 @@
 
 package com.leitner.wildest.rdr;
 
-import app.akexorcist.gdaplibrary.GooglePlaceSearch.OnBitmapResponseListener;
+import com.leitner.wildest.rdr.GooglePlaceSearch.OnBitmapResponseListener;
 
 public class BitmapRequest {
 
