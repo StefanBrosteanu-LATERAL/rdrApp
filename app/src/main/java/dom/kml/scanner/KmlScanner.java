@@ -2,15 +2,16 @@ package dom.kml.scanner;
 
 import java.math.BigDecimal;
 
-import org.rdr.dom.ParsedObject;
-import org.rdr.dom.kml.CoordinatesType;
-import org.rdr.dom.kml.DocumentType;
-import org.rdr.dom.kml.KmlType;
-import org.rdr.dom.kml.PlacemarkType;
-import org.rdr.dom.kml.StyleType;
 import org.w3c.dom.Element;
 
 import android.graphics.Color;
+
+import dom.ParsedObject;
+import dom.kml.CoordinatesType;
+import dom.kml.DocumentType;
+import dom.kml.KmlType;
+import dom.kml.PlacemarkType;
+import dom.kml.StyleType;
 
 /**
  *

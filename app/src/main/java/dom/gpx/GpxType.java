@@ -1,11 +1,13 @@
 package dom.gpx;
 
+import com.leitner.wildest.rdr.GeoPoint;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
-import org.rdr.dom.ParsedObject;
-import org.rdr.newimp.GeoPoint;
+import dom.ParsedObject;
+
 
 public class GpxType implements ParsedObject {
 

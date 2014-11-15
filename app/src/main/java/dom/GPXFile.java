@@ -2,7 +2,8 @@ package dom;
 
 import java.io.File;
 
-import org.rdr.dom.gpx.GpxType;
+import dom.gpx.GpxType;
+
 
 public class GPXFile implements ParsedFile {
 

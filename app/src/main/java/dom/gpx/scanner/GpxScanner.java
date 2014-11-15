@@ -1,14 +1,14 @@
 package dom.gpx.scanner;
 
+import dom.ParsedObject;
+import dom.gpx.GpxType;
+import dom.gpx.RteType;
+import dom.gpx.TrkType;
+import dom.gpx.TrksegType;
+import dom.gpx.WptType;
+
 import java.math.BigDecimal;
 import java.math.BigInteger;
-
-import org.rdr.dom.ParsedObject;
-import org.rdr.dom.gpx.GpxType;
-import org.rdr.dom.gpx.RteType;
-import org.rdr.dom.gpx.TrkType;
-import org.rdr.dom.gpx.TrksegType;
-import org.rdr.dom.gpx.WptType;
 
 /**
  *
@@ -46,7 +46,7 @@ public class GpxScanner {
      * Get the the created object
      */
     public ParsedObject getParsedObject() {
-        return gpxType;
+        return (ParsedObject) gpxType;
     }
     
     /**

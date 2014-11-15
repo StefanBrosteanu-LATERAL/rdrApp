@@ -1,13 +1,15 @@
 package dom.kml;
 
+import com.leitner.wildest.rdr.GeoPoint;
+
 import java.util.List;
 import java.util.Vector;
 
-import org.rdr.dom.ParsedObject;
-import org.rdr.dom.gpx.WptType;
-import org.rdr.newimp.GeoPoint;
+import dom.ParsedObject;
+import dom.gpx.WptType;
 
-public class KmlType implements ParsedObject  {
+
+public class KmlType implements ParsedObject {
 
     /**
      * 

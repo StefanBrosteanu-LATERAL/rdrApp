@@ -1,10 +1,11 @@
 package dom.gpx;
 
+import com.leitner.wildest.rdr.GeoPoint;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
-import org.rdr.newimp.GeoPoint;
 
 public class TrksegType {
 

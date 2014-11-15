@@ -1,11 +1,13 @@
 package dom;
 
+import com.leitner.wildest.rdr.GeoPoint;
+
 import java.io.Serializable;
 import java.util.List;
 import java.util.Vector;
 
-import org.rdr.dom.gpx.WptType;
-import org.rdr.newimp.GeoPoint;
+import dom.gpx.WptType;
+
 
 public interface ParsedObject extends Serializable {
 
